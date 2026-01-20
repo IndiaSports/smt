@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+<!-- Meta Pixel Code -->
+<script>
+!function(f,b,e,v,n,t,s)
+{if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+n.queue=[];t=b.createElement(e);t.async=!0;
+t.src=v;s=b.getElementsByTagName(e)[0];
+s.parentNode.insertBefore(t,s)}
+(window, document,'script','https://connect.facebook.net/en_US/fbevents.js');
+fbq('init','2429111350837109');
+fbq('track','PageView');
+</script>
+<noscript>
+<img height="1" width="1" style="display:none"
+src="https://www.facebook.com/tr?id=2429111350837109&ev=PageView&noscript=1"/>
+</noscript>
+<!-- End Meta Pixel Code -->
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Sakshi Malhotra | Elite Cricket Insights</title>
+
+<style>
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+  font-family:system-ui,-apple-system,sans-serif
+}
+
+body{
+  background:
+    radial-gradient(120% 80% at top,#1b0f2a,#07030d 70%);
+  color:#fff;
+  min-height:100vh;
+}
+
+/* Layout */
+.container{
+  max-width:420px;
+  margin:auto;
+  padding:28px 16px 120px;
+  display:flex;
+  flex-direction:column;
+  gap:20px;
+}
+
+/* Profile */
+.profile{
+  text-align:center;
+}
+.profile img{
+  width:92px;
+  height:92px;
+  border-radius:50%;
+  border:1.5px solid rgba(255,255,255,.55);
+  box-shadow:0 12px 32px rgba(255,120,180,.35);
+}
+.profile h1{
+  font-size:1.45rem;
+  margin-top:10px;
+  font-weight:700;
+}
+.profile p{
+  font-size:.88rem;
+  opacity:.85;
+}
+
+/* Stats */
+.stats{
+  display:flex;
+  gap:10px;
+}
+.stats div{
+  flex:1;
+  background:rgba(255,255,255,.05);
+  backdrop-filter:blur(12px);
+  border-radius:16px;
+  padding:14px 10px;
+  text-align:center;
+}
+.stats b{
+  display:block;
+  font-size:1.25rem;
+  color:#ff8fc6;
+}
+.stats span{
+  font-size:.72rem;
+  opacity:.8;
+}
+
+/* Card */
+.card{
+  background:rgba(255,255,255,.06);
+  backdrop-filter:blur(16px);
+  border-radius:20px;
+  padding:20px 18px;
+}
+.card h2{
+  font-size:1.1rem;
+  font-weight:600;
+  color:#ffd3e8;
+  margin-bottom:8px;
+}
+.card p{
+  font-size:.9rem;
+  opacity:.88;
+  line-height:1.55;
+}
+
+/* List */
+ul{
+  list-style:none;
+}
+li{
+  position:relative;
+  padding-left:20px;
+  margin:7px 0;
+  font-size:.88rem;
+}
+li::before{
+  content:"✦";
+  position:absolute;
+  left:0;
+  color:#ff8fc6;
+}
+
+/* Button */
+.btn{
+  display:block;
+  margin-top:14px;
+  padding:14px;
+  border-radius:40px;
+  text-align:center;
+  font-weight:700;
+  text-decoration:none;
+  color:#1a0714;
+  background:linear-gradient(90deg,#ffd1e6,#ff9fcf);
+  box-shadow:0 10px 26px rgba(255,120,180,.35);
+}
+
+/* Timer */
+.timer{
+  margin-top:10px;
+  text-align:center;
+  font-size:.82rem;
+  opacity:.75;
+}
+
+/* Bottom Bar */
+.bottom{
+  position:fixed;
+  bottom:0;
+  left:0;
+  width:100%;
+  padding:14px;
+  background:rgba(8,4,14,.92);
+  backdrop-filter:blur(16px);
+  border-radius:24px 24px 0 0;
+}
+@media(min-width:768px){
+  .bottom{display:none}
+}
+</style>
+</head>
+
+<body>
+
+<div class="container">
+
+  <div class="profile">
+    <img src="https://d1yei2z3i6k35z.cloudfront.net/13184094/696119e3b1ab9_6192610420519013146.jpg">
+    <h1>Sakshi Malhotra</h1>
+    <p>Elite Cricket Match Insights</p>
+  </div>
+
+  <div class="stats">
+    <div><b>180K+</b><span>Members</span></div>
+    <div><b>92%</b><span>Accuracy</span></div>
+    <div><b>Daily</b><span>Updates</span></div>
+  </div>
+
+  <div class="card">
+    <h2>Premium Cricket Predictions</h2>
+    <p>
+      Refined match understanding, smart analysis
+      and consistent expert insights — built for
+      serious cricket followers.
+    </p>
+    <a href="javascript:void(0)" onclick="runTelegram()" class="btn">
+      ⇲ Join Telegram Now ⇘
+    </a>
+    <div class="timer" id="timerText">
+      Auto Closing Page In 8 sec
+    </div>
+  </div>
+
+  <div class="card">
+    <h2>What You Get</h2>
+    <ul>
+      <li>Pre-Match Strategy</li>
+      <li>Live Match Direction</li>
+      <li>Expert Observations</li>
+      <li>Premium Picks (FREE)</li>
+      <li>Daily Match Coverage</li>
+    </ul>
+  </div>
+
+</div>
+
+<div class="bottom">
+  <a href="javascript:void(0)" onclick="runTelegram()" class="btn">
+    ⇛ Join Free Channel ⇛
+  </a>
+</div>
+
+<!-- TELEGRAM AUTO SCRIPT -->
+<script type="text/javascript">
+var protoUrl = "tg://join?invite=HMvOS0u_EPxhZTA9";
+
+function runTelegram(){
+  window.location = protoUrl;
+}
+
+let timeLeft = 8;
+const timerEl = document.getElementById("timerText");
+
+const countdown = setInterval(function(){
+  timeLeft--;
+  timerEl.innerText = "Auto Closing Page In " + timeLeft + " sec";
+  if(timeLeft <= 0){
+    clearInterval(countdown);
+    runTelegram();
+  }
+},1000);
+</script>
+
+</body>
+</html>
